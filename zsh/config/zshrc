@@ -16,3 +16,5 @@ bindkey -e
 if [[ -s "~/.zshrc.local" ]]; then
   source ~/.zshrc.local
 fi
+
+for config_file ($HOME/.moda/zsh/*.zsh) source $config_file
