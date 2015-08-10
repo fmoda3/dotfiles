@@ -149,9 +149,9 @@ def install_tmuxinator
   puts "it will update it."
   puts "======================================================"
   unless $?.success?
-    run %{gem install tmuxinator}
+    run %{sudo gem install tmuxinator}
   else
-    run %{gem update tmuxinator}
+    run %{sudo gem update tmuxinator}
   end
 end
 
