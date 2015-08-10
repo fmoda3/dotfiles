@@ -136,7 +136,7 @@ def install_homebrew
   puts "======================================================"
   puts "Installing Homebrew packages...There may be some warnings."
   puts "======================================================"
-  run %{brew install zsh git tmux reattach-to-user-namespace}
+  run %{brew install zsh git tmux reattach-to-user-namespace z}
   run %{brew install macvim --custom-icons --override-system-vim --with-lua --with-luajit}
   puts
   puts
