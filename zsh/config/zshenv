@@ -74,4 +74,4 @@ fi
 # Java & Maven
 export JAVA_OPTS="-Xms2048m -Xmx2048m -XX:MaxPermSize=512m -XX:PermSize=512m -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC -XX:+UseCodeCacheFlushing"
 export MAVEN_OPTS=$JAVA_OPTS
-export JAVA_HOME=$(/usr/libexec/java_home -v '1.7*')
+export JAVA_HOME=$(/usr/libexec/java_home -v '1.8*')/jre
